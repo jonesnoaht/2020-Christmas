@@ -10,15 +10,16 @@
 }
 
 .birb {
-  width: 50px;
+  width: 100px;
+  animation: 3s ease-in 1s infinite reverse both running move_birb;
+}
+.cui {
   animation: 3s ease-in 1s infinite reverse both running move_birb;
 }
 
-@keyframes move_birb {
-   from {
-     transform: scaleX(0); } to { transform: scaleX(1);
-     }
- }
+
+@keyframes move_birb { from { margin-left: -20%; } to { margin-left: 100%; }  }
+
 
 </style>
 </head>
@@ -27,7 +28,7 @@
 
 <h1>Christmas Card 2020</h1>
 <p>Merry Christmas from Brittany and Noah!!!</p>
-
+<p class='cui'>Cui cui</p>
 <img class="birb" src=https://i.chzbgr.com/full/9103447040/h53DA59B7/birb-meme-bird-it-me>
 
 </body>
